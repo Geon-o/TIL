@@ -8,4 +8,4 @@
 - java close()메소드 / try-with-resource
 
 ### 📆2022 - 06 - 08
-- 자바의 정석[StringBuffer 생성자 & 메서드] __ KH[STACK / QUEUE, DFS/BFS, record ]
+- 자바의 정석[ StringBuffer 생성자 & 메소드 ] __ KH[ STACK / QUEUE, DFS/BFS, record ]
