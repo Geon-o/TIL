@@ -8,7 +8,8 @@
 - java close()메소드 / try-with-resource
 
 ### 📆2022 - 06 - 08
-- 자바의 정석 StringBuffer 생성자 & 메소드  [] KH STACK / QUEUE, DFS/BFS, record 
+- __[자바의 정석]__ StringBuffer 생성자 & 메소드  
+- ____[KH]____ STACK / QUEUE, DFS/BFS, record 
 
 ### 📆2022 - 06 - 10
-- 자바의 정석 StringBuilder / Math class / Wraooer class & Number class / String to int / Aotoboxing & Unboxing 
+- __[자바의 정석]__ StringBuilder / Math class / Wraooer class & Number class / String to int / Aotoboxing & Unboxing 
