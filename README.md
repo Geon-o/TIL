@@ -22,3 +22,6 @@
 
 ### 📆2022 - 06 - 14
 - **[자바의 정석]** 형식화 클래스(DecimalFromat, SimpleDateFormat) / Collection framework
+
+### 📆2022 - 06 - 15
+- **[자바의 정석]** ArrayList / ArrayList Method
