@@ -1,24 +1,12 @@
-const mon = "mon";
-const tue = "tue";
-const wed = "wed";
-const thr = "thr";
-const fri = "fri";
-const sat = "sat";
-const sun = "sun";
+//객체 생성
+const player = {
+    name: "G",
+    point: 100,
+    TrueAndFalse: true,
+};
+console.log(player);
+console.log(player.name);
 
-// 그룹화(string)
-const Week = mon + tue + wed + thr + fri + sat + sun;
-console.log(Week);
-
-// 데이터 타입 그룹화(Array)
-const Week2 = [mon , tue , wed , thr , fri , sat , sun];
-console.log(Week2);
-
-//변수 할당 없이
-const Week3 = ["mon" , "tue" , "wed" , "thr" , "fri" , "sat"];
-console.log(Week3);
-// console.log(Week3[index]);  데이터 접근 -> "sat" 출력 배열은 0부터 시작
-
-//데이터 추가
-Week3.push("sun");
-console.log(Week3);
+player.other = "Simple"; // 속성 추가
+player.point = 50;
+console.log(player)
