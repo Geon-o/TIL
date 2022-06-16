@@ -6,8 +6,10 @@ console.log(5 / 2);
 console.log(5 * 2);
 
 // 변수사용
-let num = 5;
-let num2 = 2;
+
+const num = 5;
+
+const num2 = 2;
 
 console.log(num + num2);
 console.log(num / num2);
