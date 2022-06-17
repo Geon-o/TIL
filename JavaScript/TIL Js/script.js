@@ -1,12 +1,14 @@
-//객체 생성
-const player = {
-    name: "G",
-    point: 100,
-    TrueAndFalse: true,
-};
-console.log(player);
-console.log(player.name);
+//function
+console.log("Hello name is a");
+console.log("Hello name is b");
+console.log("Hello name is c");
+console.log("Hello name is d");
 
-player.other = "Simple"; // 속성 추가
-player.point = 50;
-console.log(player)
+function Hello(){
+    console.log("hello");
+}
+
+Hello();
+Hello("G");
+Hello("J");
+Hello("O");
