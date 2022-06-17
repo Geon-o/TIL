@@ -23,3 +23,4 @@
 #### 📝 2022 - 06 - 17 <script.js> UPDATE
 - Function 사용법 / Function in object -> 작동방법(함수에 데이터 보내고, 받기)
 - return 키워드  
+- 사용자로부터 값을 받고 String형 값을 parseInt를 사용해 정수값으로 변환하기
