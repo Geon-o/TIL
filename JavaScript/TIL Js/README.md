@@ -17,3 +17,8 @@
     - Object를 이용하여 사용되는 집합은 각각의 property마다 다른 의미를 가지고 있다.
     - 즉 데이터의 값 설명이 필요하면 object를 사용해 정의해주면 된다.
         - object의 property를 통해 get,set이 가능하며, 이를 이용하여 property를 업데이트 할 수 있고 값을 추가 할 수 있다.
+
+<br/>
+
+#### 📝 2022 - 06 - 17 <script.js> UPDATE
+- Function 사용법 / Function in object -> 작동방법(함수에 데이터 보내고, 받기)
