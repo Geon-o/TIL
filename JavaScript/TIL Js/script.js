@@ -22,10 +22,12 @@ if (isNaN(age) || age < 0) {
     console.log("(양의)숫자를 입력해주세요.");
 } else if (age < 18) {
     console.log("미성년자");
-} else if(age >= 18 && age <= 50){
+} else if (age >= 18 && age <= 50) {
     console.log("18세부터 50세");
-} else if(age > 50 && age <= 80){
+} else if (age > 50 && age <= 80) {
     console.log("51살부터 80세");
-} else if(age > 80){
+} else if (age === 100) {
+    console.log("장수");
+} else if (age > 80) {
     console.log("81세~")
 } 
