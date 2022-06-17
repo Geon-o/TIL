@@ -1,37 +1,26 @@
-//function
-console.log("Hello name is a");
-console.log("Hello name is b");
-console.log("Hello name is c");
-console.log("Hello name is d");
 
-function Hello(name1, age) {
-    console.log("hello " + name1 + "and " + age);
-}
-
-Hello();
-Hello("G", 20);
-Hello("J", 25);
-Hello("O", 27);
-
-function plus(FN, SN) {
-    console.log(FN + SN);
-}
-
-function minus(a, b) {
-    console.log(a - b);
-}
-
-plus(10, 11);
-minus(50, 10);
-
-// function in object
-const profile = {
-    name: "G",
-    say: function (anotherName) {
-        console.log("hello! " + anotherName + " how are you");
+// console에 출력
+const calculator = {
+    add: function (a, b) {
+        console.log("add = " + (a + b));
+    },
+    min: function (a, b) {
+        console.log("min = " + (a - b));
+    },
+    div: function (a, b) {
+        console.log("div = " + (a / b));
+    },
+    mul: function (a, b) {
+        console.log("mul = " + (a * b));
+    },
+    squ: function (a, b) {
+        console.log("squ = " + (a ** b));
     },
 };
 
-console.log(profile.name);
-profile.say("J");
-profile.say("O");
+calculator.add(2, 3);
+calculator.min(2, 3);
+calculator.div(2, 3);
+calculator.mul(2, 3);
+calculator.squ(2, 3);
+
