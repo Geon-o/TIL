@@ -22,3 +22,4 @@
 
 #### 📝 2022 - 06 - 17 <script.js> UPDATE
 - Function 사용법 / Function in object -> 작동방법(함수에 데이터 보내고, 받기)
+- return 키워드  
