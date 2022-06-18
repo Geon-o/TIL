@@ -35,4 +35,5 @@
 <br/>
 
 #### 📝 2022 - 06 - 18 <index.html> UPDATE
-- id값 추가
+- id 추가
+- <div>태그 추가 / class 이름 부여
