@@ -27,3 +27,12 @@
 - 사용자로부터 받은 값이 NaN인지 확인하는 function / 조건(if)를 사용
 - 조건문 사용 -> AND, OR
 - 조건문 연산자 추가
+<br/>
+
+#### 📝 2022 - 06 - 18 <script.js> UPDATE
+- HTML element를 가져와 변경이 가능함
+- HTML과 JavaScript의 관계
+<br/>
+
+#### 📝 2022 - 06 - 18 <index.html> UPDATE
+- id값 추가
