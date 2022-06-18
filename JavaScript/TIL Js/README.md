@@ -32,6 +32,7 @@
 #### 📝 2022 - 06 - 18 <script.js> UPDATE
 - HTML element를 가져와 변경이 가능함
 - HTML과 JavaScript의 관계
+- querySelector()사용법 / CSS Seclector를 이용하여 
 <br/>
 
 #### 📝 2022 - 06 - 18 <index.html> UPDATE
