@@ -1,4 +1,9 @@
-const title = document.getElementById("title");
+const This = document.getElementsByClassName("This");
 
-console.dir(title);
-title.innerText = ("잡았다.") //자바스크립트로 해당 id텍스트 변경
+console.log("Tihs");
+
+const title = document.getElementsByTagName("h1");
+console.log(title);
+
+const title1 = document.querySelector(".This h1"); // CSS selector를 이용하여 검색
+console.log(title1);
