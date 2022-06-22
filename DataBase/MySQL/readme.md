@@ -8,3 +8,4 @@
 ### 📆2022 - 06 - 22
 - MySQL 구성
 - MYSQL Server Connection
+- MySQL CREATE / SHOW / USE
