@@ -3,7 +3,7 @@
     - MySQL 설정
         - spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
     - DB Source URL 설정
-        - spring.datasource.url=jdbc:mysql//<IP>:<PORT>/<DB NAME>?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+        - spring.datasource.url=jdbc:mysql//IP:PORT/DB NAME?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
     - DB 사용자 이름 설정
         - spring.datasource.username=root
     - DB 사용자 이름에 대한 암호
