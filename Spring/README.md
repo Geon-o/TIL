@@ -3,7 +3,7 @@
 ### 📌 development environment
 - intelliJ IDEA Ultimate
 - springBoot 2.7.1
-- JAva 17
+- Jva 17
 - Gradle
 - MySQL 8
 <br/>
