@@ -1,4 +1,4 @@
-#Controller와 RestController의 차이
+# Controller와 RestController의 차이
 
 ### 📍 Controller
 - 해당 html를 제어하고 웹화면으로 보여주기 위한 어노테이션
