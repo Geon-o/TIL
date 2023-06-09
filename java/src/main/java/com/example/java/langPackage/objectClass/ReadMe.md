@@ -46,6 +46,7 @@
 - 객체를 문자열로 변환
   - 객체 == iv(인스턴스 변수)
   - 객체를 문자열로 변환한다는 것 -> iv의 값을 문자열로 변환
+
 ***
 ##### 23.06.07
 
@@ -67,3 +68,46 @@
 - "" 형태
 - 크기가 0인 char형 배열 -> 내용이 없음
 - 어느 타입이나 크기가 0인 배열 생성가능
+
+***
+##### 23.06.10
+
+# String 클래스 생성자와 메서드
+- String(char[] value) 
+  - char[] -> String
+  - 반대
+    - toCharArray()
+  
+    
+- String(StringBuffer buf)
+  - StringBuffer -> String
+  - 매개변수로 StringBuffer를 받을 수 있음
+
+  
+- char charAt()
+  - 지정된 인덱스 문자 1개 반환
+
+  
+- compareTo()
+  - 두개의 문자를 사전 순서대로 비교
+  - Dictionary Order
+  - 같으면 0, 왼쪽이 작으면 -1, 오른쪽이 작으면 1
+  - 첫번째꺼 부터 비교(순서대로 비교)
+  - 정렬시 사용
+
+  
+- concat()
+  - 문자열 뒤에 덧붙임
+
+  
+- contains()
+  - 매개변수로 들어온 문자열이 포함되어있는지 확인(boolean)
+
+
+- endsWith()
+  - 지정된 문자열로 끝나는지 확인(boolean)
+
+
+- equalsIsIgnoreCase()
+  - 문자열 대소문자 구분없이 비교
+***
