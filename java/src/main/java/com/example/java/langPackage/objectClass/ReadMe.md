@@ -111,3 +111,57 @@
 - equalsIsIgnoreCase()
   - 문자열 대소문자 구분없이 비교
 ***
+##### 23.06.13
+
+### join() 과  StringJoiner
+- join()
+  - 여러 문자열 사이에 구분자를 넣어서 결합
+
+### 문자열과 기본형 간의 변환
+- 숫자를 문자열로 변환
+  - ex) 숫자 + ""(빈문자열)
+    - 편리(가독성 향상)
+  - String.valueOf();(필요시)
+    - 빠름(성능)
+
+
+- 문자열을 숫자로 변환
+  - Integer.parseInt();
+  - 래퍼클래스.parse...
+    - 사용하기 힘들어서 래퍼클래스.valueOf()로 변환가능
+    - ex) Integer.valueOf()
+
+
+# StringBuffer 클래스
+- String처럼 문자형 배열을 내부적으로 가지고있음
+- 문자열을 저장하고 다루기 위한 클래스
+- String과 달리 내용을 변경할 수 있다.(String 불변)
+  - append() 메소드로 문자열 추가가능
+- 문자열의 조작이 많을 경우 StringBuffer를 사용하길 권장
+
+### StringBuffer의 생성자
+- 배열은 길이 변경불가, 공간이 부족하면 새로운 배열 생성
+  1. 새로운 배열 생성(기본족으로 사이즈 2배)
+  2. 내용 복사
+  3. 참조 변경
+
+
+- StringBuffer는 저장할 문자열의 길이 고려하여 적절한 크기로 생성
+  - StringBuffer(int length)
+    - 적절한 크기 설정
+
+
+- 내용 변경 가능
+  - append()
+    - 끝에 문자열 추가
+  - delete()
+    - 삭제
+  - insert()
+    - 삽입
+  - 반환 타입이 StringBuffer()
+
+
+- StringBuffer 비교
+  - equals()가 오버라이딩이 되어있지 않다.
+    -> 주소비교
+  - String()으로 변환 후 equals()로 비교
